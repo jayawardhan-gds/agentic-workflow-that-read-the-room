@@ -20,6 +20,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -31,10 +32,12 @@ Read `notes/mona-notes.md` before making any changes. Review
 `site/content/github-info.md` and keep updates concise, practical, and consistent
 with its existing themes.
 
-Use web-fetch to review both official sources:
+
+Use web-fetch to review these sources:
 
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` only. Include clear source context for
 information from the GitHub Blog or GitHub Changelog. Do not invent updates or
